@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_page_attachments() to attach library for Webform OTP Field.
+ *
+ * This function is invoked when building page attachments, allowing us to
+ * attach necessary libraries for the Webform OTP Field.
+ *
+ * @param array $page
+ *   An array representing the current page being rendered.
+ */
+function webform_otp_field_page_attachments(array &$page) {
+    // Attach the library 'webform_otp_field/webform_otp_field' to the page.
+    $page['#attached']['library'][] = 'webform_otp_field/webform_otp_field';
+}

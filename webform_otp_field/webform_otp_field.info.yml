@@ -1,0 +1,12 @@
+name: 'Webform Otp Field'
+type: module
+description: 'Provides an Otp Field to collect a valid Otp number.'
+package: Webform
+core_version_requirement: ^8 || ^9 || ^10
+dependencies:
+  - 'webform:webform'
+
+# Information added by Drupal.org packaging script on 2023-01-04
+version: '2.0.1'
+project: 'webform_otp_field'
+datestamp: 1672827128
